@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Tugas 1 | Portalbantul</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<img src="logo.png" alt="logo" />
+			<ul id="menu-utama">
+				<li class="active"><a href="home.html">
+					<p>Home</p></a>
+					</li>
+				<li><a href="kuliner.html">
+					<p>Kuliner</p></a>
+					</li>
+				<li><a href="video.html">
+					<p>Video Wisata</p></a>
+					</li>
+				<li><a href="contact.html">
+					<p>Hubungi Redaksi</p></a>
+					</li>
+			</ul>
+		<form>
+		<input type="text" name="search" placeholder="pencarian" />
+		</form>
+	</header><!---Penutup header-->
+	
+	Jika anda ingin brpartisipasi pada kami, silahkan menghubungi kami melalui form dibawah ini.
+	<br></br>
+<form method="post" class="form">
+<label for="user-name" style="padding-top:13px">&nbsp;Name</label>
+  <input
+   id="user-name"
+   class="form-content"
+   type="text"
+   name="name"
+   autocomplete="on"
+   required />
+  <div class="form-border"></div>
+<label for="user-email" style="padding-top:13px">&nbsp;Email</label>
+  <input
+   id="user-email"
+   class="form-content"
+   type="email"
+   name="email"
+   required />
+  <div class="form-border"></div>
+  <label for="website" style="padding-top:13px">&nbsp;Website</label>
+  <input
+   id="website"
+   class="form-content"
+   type="url"
+   name="website"
+   required />
+  <div class="form-border"></div>
+  <label for="message" style="padding-top:22px">&nbsp;Message</label>
+  <input
+   id="message"
+   class="form-content"
+   type="text"
+   name="message"
+   required />
+  <div id="btn">
+  
+  <input id="submit-btn" type="submit" name="submit" value="SUBMIT" />
+  <input id="reset-btn" type="reset" name="reset" value="RESET" />
+  
+  </div>
+  
+ <footer>
+		<p>Portal web Copyright 2020 Oleh Jiwantara</p>
+		</footer>
+</div><!--Penutup div "wrapper" -->
+</body>
+</html>
